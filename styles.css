@@ -88,14 +88,14 @@ body{
 body {
     margin: 0;
     height: 100vh;
-    background: url("image1.jpeg") center/cover no-repeat;
+    background: url("image2.jpg") center/cover no-repeat;
 }
 
 body::before {
     content: "";
     position: fixed;
     inset: 0;
-    background: url("image1.jpeg") center/cover no-repeat;
+    background: url("image2.jpg") center/cover no-repeat;
     filter: blur(2px);
     z-index: -1;
 }
